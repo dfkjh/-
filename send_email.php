@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = $_POST['message'];
 
     // 이메일 설정
-    $to = 'your-email@example.com'; // 수신할 이메일 주소로 변경
+    $to = 'lsm11219@naver.com'; // 수신할 이메일 주소로 변경
     $subject = "Contact Form Submission from $name";
     $headers = "From: $email" . "\r\n" .
                "Reply-To: $email" . "\r\n" .
